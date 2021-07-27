@@ -1,0 +1,213 @@
+.carousel {
+
+  margin: 50px auto;
+  text-align: center;
+  color: white;
+}
+
+.carousel h1 {
+
+  position: absolute;
+  color: white;
+  text-shadow: 2px 2px 15px black;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 10em;
+  margin-top: 125px;
+}
+
+.card-wrap ul {
+
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.card-wrap li {
+
+  flex: 1;
+  margin: 20px 0;
+}
+
+.card-area {
+
+  display: flex;
+  flex: 1;
+  background: url("images/backg2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+.card-area h2 {
+
+  margin: 1.5em 0;
+}
+
+.room-summary {
+
+  line-height: 2em;
+  background: rgba(100, 100, 100, .5);
+  color: white;
+  font-weight: 600;
+  padding: 20px;
+  border: 2px ridge;
+}
+
+.contact {
+
+  width: 18rem;
+  height: 18rem;
+}
+
+.contact-page {
+
+  display: flex;
+  margin: 100px auto;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.rev-map {
+
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews {
+
+  border: 1px solid gray;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 100%;
+  max-width: 50%;
+  background: #efefef;
+}
+
+.map {
+
+  margin: 0 50px;
+}
+
+.reviews h4 {
+
+  font-size: 14px;
+  flex: 100%;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.reviews p {
+
+  font-size: 12px;
+  font-style: italic;
+}
+
+.review-top {
+
+  display: flex;
+  line-height: 18px;
+  flex: 1;
+}
+
+.review-top img {
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.stars {
+
+  display: inline;
+  float: left;
+  color: #FFD939;
+  font-size: 18px;
+  padding: 10px;
+}
+
+footer {
+
+  display: flex;
+  position: relative;
+  bottom: 0;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background: url("images/background.png");
+
+}
+
+.q-box input {
+
+  padding: 40px;
+}
+
+footer i {
+
+  flex: 1;
+}
+
+
+@media (max-width: 768px) {
+
+  .carousel h1 {
+    font-size: 4em;
+    margin: 50px;
+  }
+
+  .card-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-area ul {
+
+    justify-content: center;
+
+  }
+
+  .card-area ul, li {
+
+    padding: 0;
+    margin: 0;
+  }
+
+  .room-summary {
+
+    flex: 100%;
+  }
+
+  .card {
+
+    flex: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact-page {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .map {
+
+    margin: 50px;
+  }
+}
